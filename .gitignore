@@ -1,1 +1,28 @@
-__init__.py
+# ===== ENTORNOS VIRTUALES =====
+venv/
+.env/
+.venv/
+
+# ===== DATOS GRANDES Y MODELOS =====
+data/
+models/
+
+# ===== CACHÉ Y ARCHIVOS TEMPORALES =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== JUPYTER NOTEBOOKS =====
+.ipynb_checkpoints/
+
+# ===== CONFIGURACIÓN LOCAL =====
+.vscode/
+.idea/
+
+# ===== DVC CACHÉ =====
+.dvc/cache/
+
+# ===== LOGS Y SALIDAS =====
+logs/
+outputs/
